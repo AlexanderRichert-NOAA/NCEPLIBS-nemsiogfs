@@ -43,5 +43,4 @@ jobs:
         cmake --build nemsiogfs/build --parallel 2 --verbose
     
     - name: test
-      run: |
-        ctest --test-dir nemsiogfs/build --rerun-failed --output-on-failure
+      run: ctest --test-dir nemsiogfs/build --rerun-failed --output-on-failure

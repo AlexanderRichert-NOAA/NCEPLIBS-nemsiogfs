@@ -27,7 +27,7 @@ jobs:
         key-suffix: -1
 
     - name: checkout-nemsiogfs
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with: 
         path: nemsiogfs
 
